@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Galeria de imagenes</h1>
+    
+    <span class="linea"></span>
+    <section class="galeria">
+        <a href="#image1"><img src="img/uno.jpg" alt=""></a>
+        <a href="#image2"><img src="img/dos.jpg" alt=""></a>
+        <a href="#image3"><img src="img/uno.jpg" alt=""></a>
+        <a href="#image4"><img src="img/uno.jpg" alt=""></a>
+        <a href="#image5"><img src="img/uno.jpg" alt=""></a>
+        <a href="#image6"><img src="img/seis.jpg" alt=""></a>
+
+    </section>
+    <article class="light-box" id="image1">
+        <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/uno.jpg" >
+        <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    </article>
+
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/dos.jpg" >
+        <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    </article>
+
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/uno.jpg" >
+        <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    </article>
+
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/uno.jpg" >
+        <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    </article>
+
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/uno.jpg" >
+        <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    </article>
+
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/seis.jpg" >
+        <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close"><i class="fa-solid fa-x"></i></a>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+</html>
